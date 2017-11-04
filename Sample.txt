@@ -1,0 +1,22 @@
+let x : int = 5 ;
+in
+	int ( x + x * x )
+end ;
+
+let r : real = 10.0 ;
+	  pi : real = 3.1416 ;
+in
+	real ( pi * r * r )
+end ;
+
+let y : real = 3.0 ;
+    x : int = 6 ;
+in
+	real ( ( real ( x ) + y ) * ( real ( x ) - pi ) )
+end ;
+
+let a : int = 7 ;
+    b : real  = real ( a ) + 3.0 ;
+in
+	int ( a + int ( b ) ) 
+end ;
